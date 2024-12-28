@@ -1,7 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vite.dev/config/
+// Ganti dengan nama repository Anda
 export default defineConfig({
+  base: '/tugasredux2.github.io/',
   plugins: [react()],
-})
+});
